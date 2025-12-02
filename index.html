@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Event AI Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="app-header">
+        <h1>Campus Event AI Assistant</h1>
+    </header>
+
+    <main class="chat-layout">
+        <section id="chat-window" class="chat-window" aria-live="polite" aria-label="Chat history"></section>
+        <form id="chat-form" class="input-bar" autocomplete="off">
+            <input
+                type="text"
+                id="message-input"
+                name="message"
+                placeholder="Ask the AI to craft an event post..."
+                aria-label="Message input"
+                required
+            />
+            <button type="submit" id="send-button" aria-label="Send message">➤</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
